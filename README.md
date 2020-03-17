@@ -1,2 +1,2 @@
 # iba
-A loan system built on CodeIgniter,MySQL,Boot Strap Template, JQuery and HTML5
+A loan system built on CodeIgniter,MySQL,BootStrap Template, JQuery and HTML5
