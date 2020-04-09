@@ -1,0 +1,5 @@
+
+
+============ QUERIES TO USE WHEN MAKING A NEW LOAN =============
+
+ SELECT * from monthlyloans where clientID='IBA20170011' ORDER BY regDate DESC LIMIT 1 // S
