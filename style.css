@@ -6,7 +6,7 @@ body {
 #holder {
     width: 100%;
 }
-
+/* This is the style */
 #holder > div {
     clear: both;
     padding: 2%;
