@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	$.get('http://localhost/System_iba/index.php/dashboard/client_names',function(Data)
+	$.get('http://localhost/iba/index.php/dashboard/client_names',function(Data)
 		{
              $('#client_names').empty();
              $('#client_names').html(Data);                    
@@ -19,7 +19,7 @@ $(document).ready(function(){
 	  	$("#selName").attr('value',client_name)
 
 		// Make an instantanious call to get the client previous loan 
-		$.post('http://localhost/System_iba/index.php/dashboard/get_previous_loan',{client_name:client_name},function(Data)
+		$.post('http://localhost/iba/index.php/dashboard/get_previous_loan',{client_name:client_name},function(Data)
 		{
 			
 			var responseData = parseFloat(Data);
