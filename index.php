@@ -236,7 +236,7 @@ switch (ENVIRONMENT)
 	define('SYSDIR', basename(BASEPATH));
 
 	// The path to the "application" directory
-	if (is_dir($application_folder))
+           	if (is_dir($application_folder))
 	{
 		if (($_temp = realpath($application_folder)) !== FALSE)
 		{
